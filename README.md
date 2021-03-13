@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React with redux demo
 
 This project is for redux demo with react app
 
