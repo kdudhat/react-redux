@@ -1,10 +1,11 @@
 # Getting Started with Create React App
 
 This project is for redux demo with react app
-Demo features:
-  Multi reducer
-  Async Action using thunk middleware
-  Logger middleware
+
+# Demo features:
+- Multi reducer
+- Async Action using thunk middleware
+- Logger middleware
   
 
 ## Available Scripts
