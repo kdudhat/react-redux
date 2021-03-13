@@ -3,9 +3,12 @@
 This project is for redux demo with react app
 
 # Demo features:
+- React-redux without hooks
+- React-redux with hooks
 - Multi reducer
 - Async Action using thunk middleware
 - Logger middleware
+
   
 
 ## Available Scripts
