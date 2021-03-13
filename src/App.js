@@ -5,6 +5,7 @@ import "./App.css";
 import CakeContainer from "./components/CakeContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
 import HooksIceCream from "./components/HooksIceCream";
+import User from "./components/User";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <CakeContainer />
         <HooksCakeContainer />
         <HooksIceCream />
+        <User />
       </div>
     </Provider>
   );
