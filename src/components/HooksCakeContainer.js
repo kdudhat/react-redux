@@ -4,7 +4,7 @@ import { buyCake } from "../redux";
 function HooksCakeContainer() {
   //this function is same working as mapStateToProps
   //useSelector select state from redux store and return state value
-  const numOfCakes = useSelector((state) => state.numOfCakes);
+  const numOfCakes = useSelector((state) => state.cake.numOfCakes);
 
   //useDispatch is dispatch mathod from store and we can use it to by calling with action
   const dispatch = useDispatch();

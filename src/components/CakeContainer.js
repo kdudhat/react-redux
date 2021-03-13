@@ -12,7 +12,7 @@ function CakeContainer(props) {
 //this function -> convert redux state into props
 const mapStateToProps = (state) => {
   return {
-    numOfCakes: state.numOfCakes,
+    numOfCakes: state.cake.numOfCakes,
   };
 };
 //this function dispatch mathod as props so you can direacly dispatch them using props

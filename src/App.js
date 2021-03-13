@@ -4,6 +4,7 @@ import store from "./redux/store";
 import "./App.css";
 import CakeContainer from "./components/CakeContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
+import HooksIceCream from "./components/HooksIceCream";
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
     //with store props
     <Provider store={store}>
       <div className="App">
-        <HooksCakeContainer />
+        {/* this is react-redux without hooks */}
         <CakeContainer />
+        <HooksCakeContainer />
+        <HooksIceCream />
       </div>
     </Provider>
   );
